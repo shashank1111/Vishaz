@@ -1,0 +1,457 @@
+/*------- journey styles starts -----*/
+.journey {
+	/*border:1px solid red;*/
+	padding-left:40px;
+	padding-right:40px;
+}
+
+.journey .item{
+	width:25%;
+	height:300px;
+	border-radius:12px;
+	margin:0px auto;
+}
+.jrny-img{
+	height: 100%;
+}
+
+.journey .owl-carousel{
+	height: 250px !important;
+}
+.wedding{
+	/*background-color: rgba(214, 187, 110, 1);*/
+	padding:0;
+}
+.wedding .section-head h4{
+	color: #fff;
+    font-size: 60px;
+    line-height: 55px;
+}
+.whn-whr{
+	width:100%;
+}
+.whn-sctn,.whr-sctn{
+	 width: 49%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.whr-sctn{
+	border-left: 2px solid white;
+}
+.whn-ttl,.whr-ttl{
+	color: white;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.whn-dte,.whr-vnu{
+	margin: 20px auto;
+    color: white;
+    font-size: 20px;
+    max-width:350px;
+}
+.testimonials{
+	height:700px;
+}
+.testimonials::before,header::before{
+	opacity: 0 !important;
+}
+.process{
+	background-position-y: -100px;
+}
+.process::before{
+	background:#0b1520 !important;
+	opacity;0.7;
+}
+.lctn-vnu{
+	width: 100%;
+    text-align: center;
+    position: absolute;
+    width: 200px;
+    top: 260px;
+    height: 70px;
+}
+.hall-img-sctn{
+	    width: 100%;
+    display: inline-block;
+}
+.lctn-vnu{
+	margin: 0 0 0 20px;
+}
+.venue h4{
+	font-size: 60px;
+    color: #000;
+    font-family: fantasy;
+}
+.venue p{
+	font-size: 40px;
+	color: #000;
+    font-family: cursive;
+}
+.venue .section-head{
+	width:100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.venue{
+		padding:50px 0 100px 0;
+	background-color: #fff
+}
+.venue .hall-img{
+	width:100%;
+	height:600px;
+}
+.map-img{
+	height: 190px;
+	border-radius: 36px;
+}
+p.vue-mp-txt{
+    color: #fff;
+    font-family: cursive;
+    font-size: 28px;
+}
+
+.our-story{
+	padding:0;
+}
+.ostry-img{
+}
+.process .item .cont{
+	padding:0;
+}
+.process .item .cont .ostry-img{
+	border-radius:10px;
+}
+.rsvp{
+	height:700px;
+	background-position-y:-100px; 
+}
+.rsvp::before{
+	    background: #0b1520;
+	    opacity: 0;
+}
+.rsvp::after{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.rsvp .hdng,.rsvp .sbhdng{
+	font-family: cursive;
+}
+footer{
+	background-color: rgba(214, 187, 110, 1);
+	font-size:50px;
+	padding:40px;
+}
+footer p{
+	font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-family: cursive;
+}
+.nav-scroll{
+background: linear-gradient(to bottom,rgba(255,255,255,0.5) 0%,transparent 100%);
+    transition: transform .5s ease;
+    box-shadow: none;
+}
+.grey-scale{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.grey-scale:hover{
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+/*.cd-headline{
+	    font-family: fantasy;
+}*/
+/*.caption h4{
+	    font-family: monospace;
+}*/
+.navbar .navbar-nav .active{
+	color:white !important;
+	/*font-weight: bolder;*/
+}
+.journey .item{
+	margin:0px;
+}
+
+.bg {
+	border: 5px solid #fff;
+	height: 300px;
+    width: 100%;
+    margin:10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item:hover .bg{
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: all .3s;
+}
+.bg1{
+    background-image: url(../img/images/journey/j26.jpg);
+    background-position-x: -40px;
+}
+.bg2{
+    background-image: url(../img/images/journey/j1.jpg);
+    background-position-x: -70px;
+}
+.bg3{
+    background-image: url(../img/images/journey/j2.jpg);
+}
+.bg4{
+    background-image: url(../img/images/journey/j4.jpg);
+    background-position-x: -70px;
+}
+.bg5{
+    background-image: url(../img/images/journey/j15.jpg);
+}
+.bg6{
+    background-image: url(../img/images/journey/j16.jpg);
+}
+.bg7{
+    background-image: url(../img/images/journey/j18.jpg);
+    background-position-y: -50px;
+}
+.bg8{
+    background-image: url(../img/images/journey/j7.jpg);
+}
+.bg9{
+    background-image: url(../img/images/journey/j19.jpg);
+}
+.bg10{
+    background-image: url(../img/images/journey/j20.jpg);
+    background-position-x: -70px;
+}
+.bg11{
+    background-image: url(../img/images/journey/j21.jpg);
+    background-position-y: -70px;
+}
+.bg12{
+    background-position-x: -50px;
+    background-image: url(../img/images/journey/j22.jpg);
+}
+.bg13{
+    background-image: url(../img/images/journey/j23.jpg);
+    background-position-y: -80px;
+}
+.bg14{
+    background-image: url(../img/images/journey/j24.jpg);
+}
+.bg15{
+    background-image: url(../img/images/journey/j25.jpg);
+    background-position-x: -90px;
+}
+.bg16{
+    background-image: url(../img/images/journey/j27.jpg);
+    background-position-x: -90px;
+}
+
+.stry-txt{
+	font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999;
+    line-height: 2.8;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.stry-wrpr{
+	padding:50px  0;
+}
+
+
+
+canvas {
+  border: 1px soild black;
+}
+.cnvs-hdng {
+    display: inline-block;
+    padding: 0.3em;
+    font-family: 'Megrim', cursive;
+    position: absolute;
+    top: 7%;
+    right: -10%;
+    user-select: none;
+    transform: translate(-50%,-50%);
+    color: rgba(255,255,255,.68);
+    border: .075em solid rgba(255,255,255,.1);
+    font-size: 30px;
+    border-radius: 10px;
+}
+.wdng-wrpr{
+	position: relative;
+}
+.wdng-txt{
+	position: absolute;
+    z-index: 2;
+    width: 100%;
+    padding:100px 0;
+}
+.cnvs-wrpr{
+	margin-bottom: -5px;
+}
+
+
+.heart {
+  fill: #ff0000;
+  position: relative;
+  top: 0.1em;
+  width: 100px;
+  animation: pulse 1s ease infinite;
+}
+
+/* Creating the heartbeat effect*/
+@keyframes pulse {
+    0% { 
+        transform: scale(1); 
+  }
+    50% {
+        transform: scale(1.3); 
+  }
+  100% { 
+        transform: scale(1); 
+  }
+}
+
+.audio-img{
+	width: 40px;
+    height: 40px;
+    border: 2px solid #444;
+    border-radius: 50%;
+    padding: 7px;
+    position: fixed;
+    right: 33px;
+    top: 14px;
+}
+.audio-img:hover{
+	opacity: 0.5;
+	transition: all 0.4s;
+	cursor: pointer;
+}
+
+
+@media only screen and (max-width: 991px){
+.header {
+	background-position: 80% 0% !important;
+	}
+.header .caption {
+	margin:10% 0 0 0 !important;
+}
+.journey{
+	    padding: 20px 0px !important;
+}
+.journey .item{
+	width:100%;
+}
+.journey .item .bg{
+	margin:0;
+}
+.wdng-txt{
+	padding: 30px 0 0 0;
+}
+.whn-sctn,.whr-sctn{
+	width:100%;
+	border:none;
+}
+.whr-sctn{
+	margin-top: 30px;
+}
+.cnvs-hdng{
+	    font-size: 20px;
+    top: unset;
+    bottom: 3%;
+    right: unset;
+    left: 50%;
+    display: block;
+}
+.testimonials{
+	background-position-x: 50%;
+}
+.venue h4{
+	font-size: 40px;
+}
+.venue p{
+	font-size: 20px;
+}
+.lctn-vnu{
+	position: unset;
+    width: 100%;
+    margin: 0 40px 40px 40px;
+}
+.venue .hall-img {
+    height: 240px;
+}
+p.vue-mp-txt{
+	color: #000;
+}
+.venue{
+	padding: 50px 0 150px 0;
+}
+.rsvp{
+	background-position-y: 100%;
+	height: 100%;
+}
+.call-action h2{
+	margin: -40% 0 0 0;
+}
+.testimonials{
+	height: 300px;
+}
+.journey .section-head{
+	margin-bottom: 0;
+}
+.process{
+	display: none;
+}
+.bg1,.bg12,.bg15,.bg16{
+	    background-position-x: 0px;
+}
+.icon-bar img{
+	width:40px;
+}
+.navbar .navbar-collapse{
+	max-height: 340px;
+    overflow: auto;
+    background: #fff;
+    text-align: center;
+    padding: 10px 0;
+    color: #000;
+    max-width: 97%;
+    border-radius: 20px;
+    border: 1px solid #eee;
+}
+.nav-scroll .navbar-collapse .nav-link{
+	color:#000 !important;
+}
+.navbar-toggler:focus{
+	outline: none !important;
+	border: none !important;
+}
+
+
+
+.audio-img{
+    border: 2px solid #000;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
